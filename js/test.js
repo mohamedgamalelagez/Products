@@ -65,7 +65,7 @@ function updateElement(index) {
   pc.value = product.Category.trim();
   pd.value = product.Description.trim();
   currentIndex = index;
-  document.getElementById("addProduct").textContent = "upDated";
+  document.getElementById("addProduct").textContent = "updated";
 }
 //CRUD operations
 //Create
