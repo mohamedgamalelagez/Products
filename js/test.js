@@ -22,7 +22,7 @@ function addProduct() {
   } else {
     allProducts[currentIndex] = product;
     currentIndex = null;
-    document.getElementById("addProduct").textContent = "ADDPRODUCT";
+    document.getElementById("addProduct").textContent = "add-product";
   }
   clearForm();
   displayAllProduct();
@@ -65,7 +65,7 @@ function updateElement(index) {
   pc.value = product.Category.trim();
   pd.value = product.Description.trim();
   currentIndex = index;
-  document.getElementById("addProduct").textContent = "UPDATE";
+  document.getElementById("addProduct").textContent = "up-date";
 }
 //CRUD operations
 //Create
